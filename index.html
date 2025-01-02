@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpDate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="header__box">
+            <a class="logo" href="#" aria-label="Home">
+                <img src="img/logo.svg" alt="logo" /> UpDate
+            </a>
+            <nav class="nav" role="navigation" aria-label="Main Navigation">
+                <ul class="nav__list">
+                    <li><a class="link" href="#">Courses</a></li>
+                    <li><a class="link" href="#">Teachers</a></li>
+                    <li><a class="link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn-box" role="navigation" aria-label="User Navigation">
+            <a class="header__link" href="#">En <img class="header__down-arrow" src="img/down.svg" alt="down arrow icon" /></a>
+            <a class="header__link" href="#">Sign In</a>
+            <a class="link__btn" href="#">Trial free</a> 
+        </div>      
+    </header>
+    <main class="main">
+        <div class="bg__box container">
+            <img class="offer__holder-bg" src="img/bg_explore.png" alt="" aria-hidden="true" />
+            <img class="offer__list-bg" src="img/bg_courses.png" alt="" aria-hidden="true" />
+        </div>
+        <section class="offer container" aria-labelledby="offer-title">
+            <div class="offer__holder">
+                <h1 class="offer__title" id="offer-title">
+                    Explore thousands of hands-on creative classes.
+                </h1>
+                <p class="offer__description">
+                    Start learning for <a href="#">free</a>
+                </p>
+                <button class="offer__button">Choose a course</button>
+                <p class="offer__sale">50%</p>
+                <p class="offer__time">
+                    <time datetime="PT17H17M44S">17 Days 17:44:16</time>
+                </p>
+            </div>
+            <div class="offer__list">
+                <img src="img/courses.png" alt="courses list image">
+            </div>
+        </section>
+        <section class="learn" aria-labelledby="learn-title">
+            <div class="learn__box container">
+                <div class="learn__text">
+                    <h2 class="learn__title" id="learn-title">What you will learn</h2>
+                    <p class="learn__description">
+                        Up-to-date knowledge from recognized market experts for beginners and practitioners
+                    </p>
+                    <p class="learn__description">
+                        On the platform, you can gain knowledge on current topics and
+                        in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship
+                    </p>
+                </div>
+                <div class="learn__counters">
+                    <div class="learn__counter-item">
+                        <h5 class="learn_counter-number">56</h5>
+                        <p class="learn_counter-description">Courses</p>
+                    </div>
+                    <div class="learn__counter-item">
+                        <h5 class="learn_counter-number">108</h5>
+                        <p class="learn_counter-description">Curators</p>
+                    </div>
+                    <div class="learn__counter-item">
+                        <h5 class="learn_counter-number">3 723</h5>
+                        <p class="learn_counter-description">Graduates</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discover container" aria-labelledby="discover-title">
+            <h2 class="discover__title" id="discover-title"> Discover Lifelong <br/> Learning </h2>
+            <div class="discover__menu">
+                <ul class="discover__list" role="navigation" aria-label="Course Categories">
+                    <li><button class="discover__button discover__active">Popular</button></li>
+                    <li><button class="discover__button">Animation</button></li>
+                    <li><button class="discover__button">Design</button></li>
+                    <li><button class="discover__button">Illustration</button></li>
+                    <li><button class="discover__button">Programming</button></li>
+                    <li><button class="discover__button">Photo & Film</button></li>
+                    <li><button class="discover__button">Marketing</button></li>
+                </ul>
+                <a class="discover__more" href="#" role="navigation">
+                    See more
+                    <img src="img/arrow_right.svg" alt="see more icon">
+                </a>
+            </div>
+            <div class="discover__cards">
+                <article class="discover__card-item">
+                    <img src="img/sales_marketing.jpg" alt="Sales marketing course logo">
+                    <h3 class="discover__card-title">
+                        Sales marketing
+                    </h3>
+                    <p class="discover__card-length">
+                        6 months
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/data_analytics.jpg" alt="Data analytics logo">
+                    <h3 class="discover__card-title">
+                        Data analytics
+                    </h3>
+                    <p class="discover__card-length">
+                        9 months
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/design_art.jpg" alt="Design art course logo">
+                    <h3 class="discover__card-title">
+                        Design art
+                    </h3>
+                    <p class="discover__card-length">
+                        4 months
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/animation.jpg" alt="Animation course logo">
+                    <h3 class="discover__card-title">
+                        Animation
+                    </h3>
+                    <p class="discover__card-length">
+                        8 months
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="find-program" aria-labelledby="find-program-title">
+            <div class="find-program__box container">
+                <div class="find-program__text">
+                    <h2 class="find-program__title" id="find-program-title">Can't find a suitable program?</h2>
+                    <p class="find-program__description">
+                        We will help you with the choice!
+                    </p>
+                </div>
+                <div class="form">
+                    <form action="https://fom.in.ua/echo" class="find-program__form" aria-labelledby="form-title">
+                        <label for="name">Name:</label>
+                        <input type="text" class="find-program__name" id="name" placeholder="Enter name" name="name" required aria-required="true"/>
+                        <label for="email">Email:</label>
+                        <input type="email" class="find-program__email" id="email" placeholder="Enter email" name="email" required aria-required="true"/>
+                        <button class="find-program__button">Help me</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__columns">
+                <div class="footer__contact">
+                    <a class="contact__logo" href="#">
+                        <img src="img/footer_logo.svg" alt="campaign logo" /> UpDate
+                    </a>
+                    <a class="contact__link" href="mailto:support.test.com">support@test.com</a>
+                    <a class="contact__link" href="tel:+1(213)6771024">+1 (213) 677 10 24</a>    
+                </div>
+                <div class="sitemap">
+                    <h6 class="sitemap__title">Courses</h6>
+                    <ul class="sitemap__list">
+                        <li><a class="sitemap__list-item" href="#">Animation</a></li>
+                        <li><a class="sitemap__list-item" href="#">Design</a></li>
+                        <li><a class="sitemap__list-item" href="#">Illustration</a></li>
+                        <li><a class="sitemap__list-item" href="#">Programming</a></li>
+                        <li><a class="sitemap__list-item" href="#">Photo & Film</a></li>
+                        <li><a class="sitemap__list-item" href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap">
+                    <h6 class="sitemap__title">Teachers</h6>
+                    <ul class="sitemap__list">
+                        <li><a class="sitemap__list-item" href="#">All Teachers</a></li>
+                        <li><a class="sitemap__list-item" href="#">Become Teacher</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap">
+                    <h6 class="sitemap__title">Information</h6>
+                    <ul class="sitemap__list">
+                        <li><a class="sitemap__list-item" href="#">Blog</a></li>
+                        <li><a class="sitemap__list-item" href="#">About Us</a></li>
+                        <li><a class="sitemap__list-item" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap">
+                    <h6 class="sitemap__title">Language</h6>
+                    <ul class="sitemap__list">
+                        <li><a class="sitemap__list-item" href="#">English</a></li>
+                        <li><a class="sitemap__list-item" href="#">French</a></li>
+                        <li><a class="sitemap__list-item" href="#">Russian</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <a class="copyright__link" href="#">Privacy policy</a>
+                <p class="copyright__text">
+                    Copyright 2022. All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
